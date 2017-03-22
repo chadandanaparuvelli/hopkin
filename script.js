@@ -7,11 +7,11 @@ for (i=0; i<names.length; i++)
 		var firstLetter = names[i].charAt(0);
 		if (firstLetter === 'J')
  	{
-      speak1(names[i]);
+      speak(names[i]);
 
   	} else {
 
-       speak(names[i]);
+       speak1(names[i]);
  	}
 }
 
