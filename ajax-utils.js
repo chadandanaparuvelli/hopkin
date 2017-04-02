@@ -65,4 +65,3 @@ global.$ajaxUtils = ajaxUtils;
 
 
 })(window);
-
