@@ -1,0 +1,53 @@
+#heading{
+	text-align: center;
+}
+
+#menu-tile, #special-tile, #map-tile{
+	width: 100%;
+	height: 250px;
+	margin-bottom: 15px;
+	border: 2px solid black;
+	overflow: hidden;
+	position: relative;
+}
+
+#menu-tile{
+	background: url("https://s-media-cache-ak0.pinimg.com/736x/71/96/9f/71969f38298c716022a3e52e0464db9c.jpg") no-repeat;
+	box-shadow: 0 1px 5px 1px gold;
+}
+
+#special-tile{
+	background: url("https://s-media-cache-ak0.pinimg.com/736x/61/a2/b1/61a2b1440bc40cd9d190ce191755e1a4.jpg") no-repeat;
+	box-shadow: 0 1px 5px 1px gold;
+}
+
+#menu-tile span, #special-tile span, #map-tile span, #desert-tile span{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	color: black;
+	opacity: .8;
+	background-color: grey;
+	font-style: italic;
+}
+
+#desert-tile{
+	position: relative;
+	border: 2px black;
+	overflow: hidden;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto 15px;
+}
+
+.desert-tile:hover{
+	box-shadow: 0 5px 1px red;
+}
+
+#special-category-tile +div{
+	margin-bottom: 30px;
+}
